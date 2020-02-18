@@ -1,0 +1,85 @@
+/* This will grab all the h1 tags */
+h1
+{
+  color: yellow;
+  font-family: 'Bebas Neue';
+}
+
+/* This is class */
+.container
+{
+  margin: auto;
+padding: 20px;
+  background-color:#00a3bf;
+  width: 50%;
+  box-shadow:5px 10px 10px 10px rgb(177, 177, 177);
+  border-radius:20px;
+}
+
+.container h1
+{
+  font-size: 2em;
+  font-family: 'Bebas Neue';
+}
+
+.sidebar
+{
+  float: left;
+  margin-left: 80px;
+  padding: 20px;
+  background-color: white;
+  width: 10%;
+  box-shadow: 6px 7px 5px 2px #ededed;
+  border-radius: 20px;
+}
+
+.navigation{
+  display: table;
+  margin:0 auto;
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+
+.horizontaLine {
+  padding-top: 20px;
+}
+
+.horizontaLine li {
+  display: inline;
+  margin: 20px;
+  padding: 20px 60px 20px 60px;
+  background-color: white;
+  width: 10%;
+  border-radius: 20px;
+}
+
+.horizontaLine li a {
+  color: gray;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+
+.horizontaLine li a:hover
+{
+  color: red;
+}
+
+
+
+
+
+
+
+/* This is an id */
+#milan {
+  background-color: rgb(112, 195, 33);
+  width: 80%;
+  margin: auto;
+}
+.article h1{
+
+  color: red;
+}

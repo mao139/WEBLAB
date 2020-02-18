@@ -1,0 +1,44 @@
+h1
+{
+  color: rgb(73, 102, 80);
+  font-family: "Arvo";
+  margin: auto;
+}
+h2{
+  color:rgb(73, 102, 80);
+  font-family: "Arvo";
+  margin:auto;
+}
+h3{
+  color: rgb(73, 102, 80);
+  font-family: "Arvo";
+  margin: auto;
+}
+h4{
+  color: rgb(73, 102, 80);
+  font-family: "Arvo";
+  margin: auto;
+}
+.container{
+  margin: auto;
+  font-family: "Arvo";
+}
+a:hover{
+  color: green;
+}
+
+.navigation{
+  display: table;
+  margin:0 auto;
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+
+.horizontaLine li {
+    display: inline;
+    margin: 20px;
+    padding: 20px 60px 20px 60px;
+    background-color: white;
+    width: 10%;
+    border-radius: 20px;
+  }
