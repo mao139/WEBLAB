@@ -182,7 +182,7 @@ transition-timing-function: ease-in-out;
 {
   margin: auto;
   height: 600px;
-  background-color: pink;
+  background-color: blue;
 }
 .cardBase
 {
@@ -196,12 +196,19 @@ transition-timing-function: ease-in-out;
 {
   width: 50%;
   margin-top: 100%;
+
 }
 
 /* You should put your transition code here: */
+.animation{
+  transition: background-color 500ms ease-in 500ms,
+              transform 1000ms ease-in 500ms;
+}
 
-
-
+.animation:hover{
+  background-color: red;
+  transform: rotate(360deg);
+}
 /* ---------------------------------- ENDDEBUG SECTION ------------------------------------------- */
 
 

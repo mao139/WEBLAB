@@ -1,8 +1,13 @@
+body
+{
+    background-color: lightgray;
+}
+
 h1
 {
   color: rgb(73, 102, 80);
   font-family: "Arvo";
-  margin: auto;
+  text-align: center;
 }
 h2{
   color:rgb(73, 102, 80);
@@ -19,26 +24,24 @@ h4{
   font-family: "Arvo";
   margin: auto;
 }
-.container{
+/* .container{
+  width: 70%;
   margin: auto;
   font-family: "Arvo";
+} */
+
+.box{
+  width: 60%;
+  margin: auto;
+  padding: 30px;
+  background-color: white;
 }
+
+a {
+  text-decoration: none;
+  font-style: normal;
+}
+
 a:hover{
   color: green;
 }
-
-.navigation{
-  display: table;
-  margin:0 auto;
-  margin-top: 30px;
-  margin-bottom: 80px;
-}
-
-.horizontaLine li {
-    display: inline;
-    margin: 20px;
-    padding: 20px 60px 20px 60px;
-    background-color: white;
-    width: 10%;
-    border-radius: 20px;
-  }
