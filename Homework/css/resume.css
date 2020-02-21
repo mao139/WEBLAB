@@ -6,22 +6,18 @@ body
 h1
 {
   color: rgb(73, 102, 80);
-  font-family: "Arvo";
   text-align: center;
 }
 h2{
   color:rgb(73, 102, 80);
-  font-family: "Arvo";
   margin:auto;
 }
 h3{
   color: rgb(73, 102, 80);
-  font-family: "Arvo";
   margin: auto;
 }
 h4{
   color: rgb(73, 102, 80);
-  font-family: "Arvo";
   margin: auto;
 }
 /* .container{
@@ -35,6 +31,7 @@ h4{
   margin: auto;
   padding: 30px;
   background-color: white;
+  font-family: "Prompt"
 }
 
 a {
@@ -44,4 +41,12 @@ a {
 
 a:hover{
   color: green;
+}
+
+.image
+{
+  width: 20%;
+  height: 30%;
+  margin:auto;
+  display: block;
 }
