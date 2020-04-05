@@ -15,20 +15,13 @@ hr
 
 
 /* MY HEADER WITH NAVIGATION */
-
-/* THE BLACK BOX WITH TRANSPARENCY */
 .header
 {
   height: 10vh;
   width: 100%;
-  /* WHEN YOU USE RGB YOU CAN ADD A FOURTH VALUE. THE ALPHA OR OPACITY */
   background-color: rgb(42, 42, 42, .7);
-  background-position: fixed;
-  /* POSITION CAN BE USED IN DIFFERENT WAYS. FIXED WILL KEEP YOUR CONTENT IN THE VIEWPORT */
   position: fixed;
   top: 0px;
-  /* THE Z-INDEX WILL LET YOU CHOOSE THE ORDER OF YOUR ELEMENTS IN THIS CASE
-  IT WILL POSITION ABOVE EVERYTHING */
   z-index: 1000;
 }
 .header h1
@@ -40,6 +33,7 @@ hr
     position: relative;
     color: white;
     font-family: 'Bebas Neue';
+    font-size: 30px;
 }
 .header ul
 {
@@ -51,7 +45,7 @@ hr
 .header nav ul li
 {
   display: inline;
-  margin: 10px;
+  margin: 30px;
   font-size: 18px;
   font-family: "Bebas Neue";
   font-weight: 200;
@@ -75,21 +69,15 @@ hr
 {
   margin-top: 10vh;
   height: 80vh;
-  /* YOU CAN ATTACH YOUR IMAGE TO THE BACKGROUND OF YOUR ELEMENTS */
   background-image: url("../img/jordan.jpg");
   background-size: auto;
-  /* THIS IS WHAT IT MAKES YOUR IMAGE FIXED TO THE BACKGROUND INSTEAD
-   OF MOVING WITH YOUR OTHER ELEMENTS */
   background-attachment: fixed;
-  /* PLACE THE IMAGE IN THE MIDDLE */
   background-position: center;
 }
 
 .parallax h2
 {
-  /* BE IN THE MIDDLE */
   margin: auto;
-  /* PUT SOME SPACE ON TOP OF THE TITLE SO IT CAN BE IN THE MIDDLE OF THE IMAGE */
   padding-top: 15%;
   text-align: center;
   font-family: 'Bebas Neue';
@@ -112,13 +100,9 @@ hr
   height: 100vh;
   background-image: url("../img/dolphins.jpeg");
   overflow: hidden;
-  /* ANIMATION WILL AFFECT THE ELEMENTS WE DECLARE IN OUR KEYFRAMES */
   animation: movingNames 85s linear infinite;
-  /* NAME OF OUR ANIMATION * TIME WILL TAKE * TYPE OF ANIMATION * MAKE IT A LOOP */
 }
-/* THIS WILL MAKE THE IMAGE MOVE IN THEIR BACKGROUND POSITION */
 @keyframes movingNames {
-    /* THIS IS A KEYFRAME, YOU CAN ADD AS MANY AS YOU WANT FROM 0 TO 100 */
     0%
     {
       background-position: 0 0;
@@ -180,7 +164,6 @@ hr
 /* ------------------------------------------------------------ */
 
 
-/* GRID VIDEOS */
 
 .gridVideos
 {
@@ -192,8 +175,6 @@ hr
   grid-template-columns: 1fr 1fr;
 
 }
-
-/* END GRID VIDEOS */
 
 
 /* ------------------------------------------------------------ */
@@ -219,8 +200,9 @@ hr
   font-size: 20px;
   font-weight: 400;
   margin: auto;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 70px;
+  margin-right: 70px;
+  padding: 20px;
 }
 
 h2{
@@ -228,4 +210,44 @@ h2{
   color:red;
   font-size: 50px;
   padding: 20px;
+}
+
+h3{
+  font-family: "Bebas Neue";
+  color: red;
+  font-size: 30px;
+  padding:20px;
+  margin-left: 200px;
+}
+
+
+
+.parallaxMlb
+{
+  margin-top: 10vh;
+  height: 60vh;
+  background-image: url("../img/mlb1.png");
+  background-size:1000px;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.parallaxNfl
+{
+  margin-top: 10vh;
+  height: 60vh;
+  background-image: url("../img/nfl100.png");
+  background-size: 1000px;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.parallaxNba
+{
+  margin-top: 10vh;
+  height: 60vh;
+  background-image: url("../img/nba1.png");
+  background-size: 1000px;
+  background-attachment: fixed;
+  background-position: center;
 }
