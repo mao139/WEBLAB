@@ -1,0 +1,201 @@
+body{
+  background-color: rgb(31, 31, 31);
+  max-width: 500px;
+}
+
+h1{
+  font-family: "raleway";
+  font-size: 60px;
+  color: rgb(0, 242, 199);
+  margin: auto;
+}
+h2{
+  font-family: "raleway";
+  color:rgb(0, 242, 199);
+}
+
+h3{
+  font-family: "Raleway";
+  color:rgb(0, 242, 199);
+}
+
+/* .table{
+  background-color: rgb(0, 242, 199);
+  font-family: "Raleway";
+} */
+
+th{
+  font-size: 30px;
+}
+a{
+  text-decoration: none;
+}
+
+.horizontaLine {
+  padding: 10px;
+  margin: 10px;
+}
+/* this will affect all the li childs inside my horizontaLine */
+.horizontaLine li {
+  color: rgb(0, 242, 199);
+  display: inline;
+  margin: 10px;
+  padding: 10px 10px 10px 10px;
+  background-color:black;
+  width: 100%;
+}
+.horizontaLine li a {
+  color: white;
+  text-decoration: none;
+  font-family: "raleway";
+}
+.horizontaLine li a:hover {
+  color: white;
+}
+
+.images{
+  display: block;
+  margin-left: 200px;
+  margin-right: auto;
+  margin-top: 100px;
+  margin-bottom: 70px;
+}
+
+.serieA{
+  margin:auto;
+  display: block;
+  margin-left: 200px;
+  margin-top: 100px;
+  margin-bottom: 70px;
+}
+.premier{
+  margin:auto;
+  display: block;
+  margin-left: 200px;
+  margin-top: 100px;
+  margin-bottom: 70px;
+}
+.bundesliga{
+  margin:auto;
+  display: block;
+  margin-left: 200px;
+  margin-top: 100px;
+  margin-bottom: 70px;
+}
+
+.euro{
+  color: rgb(0, 242, 199);
+}
+
+
+.table{
+  margin: auto;
+
+}
+
+
+
+.gridVideos
+{
+  margin-top: 200px;
+  width: 200%;
+  height: 500vh;
+  display: grid;
+  grid-auto-rows: 25% 25% 25% 25%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.gridLayout
+{
+  font-family: "raleway";
+  float: left;
+  width: 50%;
+  height: 100vh;
+  margin: auto;
+  margin-top: 50px;
+  margin-right: 100px;
+  border-color: black;
+  border-radius: 1px;
+  display: grid;
+  grid-template-areas:  "hea hea hea hea"
+                        "main main main nav"
+                        "main main main nav"
+                        "main main main nav";
+  grid-template-rows:30px 30px 30px 400px 70px ;
+  grid-template-columns:200px 200px 200px 200px;
+}
+.gridLayout2
+{
+  font-family: "raleway";
+  width: 80%;
+  height: 20vh;
+  margin: auto;
+  margin-right: 150px;
+  margin-top: 150px;
+  border-color: black;
+  border-radius: 1px;
+/* Here you will notice that is a more complex grid */
+  display: grid;
+  /* The templates areas will help us to distribute the cells from our grid in the order we want.
+  You can name it as you like of course is always good to name it in a obvious way.  */
+  grid-template-areas:  "hea hea hea hea"
+                        "main main main nav"
+                        "main main main nav"
+                        "main main main nav";
+
+
+
+  grid-template-rows:30px 50px 60px 50px 50px ;
+  grid-template-columns:200px 200px 300px 100px;
+
+}
+
+
+
+
+
+
+.gridLayout header
+{
+  grid-area: hea;
+  background-color: white;
+}
+.gridLayout nav
+{
+  grid-area: nav;
+  background-color:rgb(198, 93, 255);
+}
+.gridLayout main
+{
+  grid-area: main;
+  background-color: rgb(0, 242, 199);
+}
+
+.gridLayout2 header
+{
+  grid-area: hea;
+  background-color: white;
+}
+.gridLayout2 nav
+{
+  grid-area: nav;
+  background-color:rgb(198, 93, 255);
+}
+.gridLayout2 main
+{
+  grid-area: main;
+  background-color: rgb(0, 242, 199);
+}
